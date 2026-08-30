@@ -1,0 +1,277 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ManFound Privacy Policy</title>
+
+    <meta name="description" content="ManFound Privacy Policy — Version 1.0, effective July 29, 2026.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f7f7f8;
+            color: #222;
+            line-height: 1.7;
+        }
+
+        header {
+            background: #17112b;
+            color: white;
+            padding: 45px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0 0 8px;
+            font-size: 34px;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        main {
+            max-width: 850px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .content {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+        }
+
+        h2 {
+            margin-top: 35px;
+            margin-bottom: 12px;
+            color: #17112b;
+            font-size: 24px;
+        }
+
+        h2:first-of-type {
+            margin-top: 0;
+        }
+
+        p {
+            margin: 0 0 16px;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        code {
+            background: #f0eff4;
+            padding: 2px 5px;
+            border-radius: 4px;
+            font-size: 0.95em;
+        }
+
+        a {
+            color: #17112b;
+        }
+
+        .back {
+            display: inline-block;
+            margin-bottom: 25px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #666;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            .content {
+                padding: 25px 20px;
+            }
+
+            h2 {
+                font-size: 21px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>ManFound Privacy Policy</h1>
+    <p>Version 1.0 — Effective July 29, 2026</p>
+</header>
+
+<main>
+    <div class="content">
+
+        <a class="back" href="index.html">← Back to ManFound</a>
+
+        <h2>Who this policy covers</h2>
+
+        <p>
+            This policy explains how ManFound, operated by
+            <code>[LEGAL ENTITY NAME]</code> at
+            <code>[BUSINESS ADDRESS]</code>, handles information in the ManFound
+            mobile app. ManFound is a global social app for adult men to form
+            real-world connections through meetups, financial-literacy
+            discussions, communities, travel discovery, and messaging.
+            ManFound is restricted to people aged 18 or older.
+        </p>
+
+        <h2>Information ManFound handles</h2>
+
+        <ul>
+            <li>
+                <strong>Account data:</strong> email, Supabase authentication
+                identifiers, and Google account information when Google sign-in
+                is selected.
+            </li>
+
+            <li>
+                <strong>Profile data:</strong> display name, date of birth,
+                calculated age, biography, avatar, city, country, region,
+                time zone, distance preference, and privacy settings.
+            </li>
+
+            <li>
+                <strong>Location data:</strong> entered locations; device
+                coordinates after a separate permission and explicit refresh;
+                and event venue details.
+            </li>
+
+            <li>
+                <strong>Social activity:</strong> communities, posts, likes,
+                meetups, travel content, reviews, RSVPs, check-ins, attendance,
+                icebreakers, and connections.
+            </li>
+
+            <li>
+                <strong>Communications:</strong> direct and meetup-group
+                messages and memberships.
+            </li>
+
+            <li>
+                <strong>Safety data:</strong> blocks, reports, reported content,
+                limited reported-message context, moderation actions, and
+                staff audit logs.
+            </li>
+
+            <li>
+                <strong>Notifications and media:</strong> preferences, push
+                token/device metadata, avatars, and meetup cover images when
+                those features are used.
+            </li>
+        </ul>
+
+        <h2>Uses</h2>
+
+        <p>
+            ManFound uses this information to create and secure accounts;
+            provide profiles, communities, meetups, travel, check-in,
+            connections, messaging, place search, and notifications; enforce
+            the 18+ rule; investigate reports; prevent abuse; and operate and
+            improve the app.
+        </p>
+
+        <h2>Visibility</h2>
+
+        <p>
+            Public profiles are designed to expose calculated age, display
+            name, avatar, bio, city, and country—not full birth date or exact
+            profile coordinates. Private-profile settings restrict
+            profile-row visibility through Supabase Row Level Security, but
+            deliberately published posts, meetups, reviews, and chat content
+            remain visible to their intended audiences.
+        </p>
+
+        <p>
+            Avatar storage currently uses publicly readable URLs. Joined
+            meetup members can read earlier group-chat messages, and eligible
+            connections can exchange direct messages.
+        </p>
+
+        <h2>Providers and device permissions</h2>
+
+        <p>
+            Supabase supplies authentication, database, storage, and realtime
+            services. Expo supports builds and push-token registration.
+            Geoapify processes place autocomplete. Google processes Google
+            sign-in. Operating-system providers control native permissions and
+            push delivery. The inspected app contains no ad SDK or payment
+            processor.
+        </p>
+
+        <p>
+            Location, notification, camera, and media-library permissions are
+            separate from legal acceptance and are requested by their related
+            features.
+        </p>
+
+        <h2>Retention, deletion, and security</h2>
+
+        <p>
+            Data remains while needed to operate the account, provide
+            features, preserve safety evidence, or meet legitimate legal and
+            security needs. Prior message history can be retained after
+            blocking or disconnection.
+        </p>
+
+        <p>
+            ManFound does not yet have a complete self-service deletion flow.
+            Contact <code>[SUPPORT EMAIL]</code> until a verified deletion
+            process and retention schedule are implemented.
+        </p>
+
+        <p>
+            ManFound uses Supabase authentication, RLS, owner-scoped policies,
+            and restricted staff functions. No system guarantees absolute
+            security. Because ManFound is global, information may be processed
+            outside a user's country; the operator must document hosting and
+            transfer mechanisms before publication.
+        </p>
+
+        <h2>Choices and contact</h2>
+
+        <p>
+            Users can edit profile and privacy preferences, manage blocked
+            members, and disable notifications. For other privacy requests
+            contact <code>[PRIVACY CONTACT EMAIL]</code>.
+        </p>
+
+        <p>
+            Public policy URL: <code>[PUBLIC WEBSITE URL]</code>.
+        </p>
+
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2026 ManFound. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+```

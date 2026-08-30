@@ -164,32 +164,32 @@
 
         <div class="links">
 
-            <a class="link" href="privacy-policy.html">
+            <a class="link" href="privacy-policy">
                 <strong>Privacy Policy</strong>
                 <span>How ManFound handles information and privacy.</span>
             </a>
 
-            <a class="link" href="terms-of-service.html">
+            <a class="link" href="terms-of-service">
                 <strong>Terms of Service</strong>
                 <span>The terms governing use of ManFound.</span>
             </a>
 
-            <a class="link" href="community-guidelines.html">
+            <a class="link" href="community-guidelines">
                 <strong>Community Guidelines</strong>
                 <span>Rules for respectful and safe participation.</span>
             </a>
 
-            <a class="link" href="child-safety-standards.html">
+            <a class="link" href="child-safety-standards">
                 <strong>Child Safety Standards</strong>
                 <span>ManFound's 18+ policy and child-safety standards.</span>
             </a>
 
-            <a class="link" href="meetup-travel-safety.html">
+            <a class="link" href="meetup-travel-safety">
                 <strong>Meetup &amp; Travel Safety</strong>
                 <span>Safety guidance for in-person meetups and travel.</span>
             </a>
 
-            <a class="link" href="account-deletion.html">
+            <a class="link" href="account-deletion">
                 <strong>Account Deletion</strong>
                 <span>Information about deleting your ManFound account.</span>
             </a>
